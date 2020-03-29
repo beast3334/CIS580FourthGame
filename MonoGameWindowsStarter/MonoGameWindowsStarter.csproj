@@ -41,9 +41,21 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Background.cs" />
+    <Compile Include="BoundingRectangle.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="BulletModel.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyModel.cs" />
+    <Compile Include="ExplosionParticle.cs" />
+    <Compile Include="FireParticles.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Particle.cs" />
+    <Compile Include="ParticleSystem.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RainParticle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
